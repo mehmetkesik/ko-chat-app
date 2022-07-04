@@ -1,0 +1,11 @@
+Projeyi derlemek ve çalıştırmak için:
+1. go mod tidy
+2. go run main.go
+
+Proyi docker ile kullanmak için:
+1. docker build -t kochatapp .
+2. docker run -it -p 8000:8000 kochatapp
+
+-------------------
+
+Proje http://localhost:8000/ adresinde çalışmaktadır.
